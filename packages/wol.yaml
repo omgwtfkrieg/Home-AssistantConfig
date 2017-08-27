@@ -1,0 +1,4 @@
+switch:
+  - platform: wake_on_lan
+    mac_address: "74-D0-2B-36-A6-64"
+    name: "Turn on Krieg's PC"
