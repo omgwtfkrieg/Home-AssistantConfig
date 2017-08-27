@@ -1,0 +1,19 @@
+group:
+  Devices Online:
+    entities:
+    - device_tracker.desktoph5g702t 
+    - device_tracker.chromecastaudio
+    - device_tracker.b827eb5337a3
+    - device_tracker.desktopg61osng
+    - device_tracker.android162a30cc3791b67a
+    - device_tracker.androida4453a4be3c18539
+    - device_tracker.6cadf8823b1a
+    - device_tracker.android19bf5abfcb70663d
+    - device_tracker.0cfe45991ffe
+    - device_tracker.34af2cf7ad15
+
+device_tracker:
+  - platform: xiaomi
+    host: !secret host_xiaomi
+    password: !secret password_xiaomi
+    track_new_devices: yes
