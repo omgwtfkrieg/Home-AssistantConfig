@@ -1,5 +1,7 @@
+*.db
 home-assistant.log
 home-assistant.*
+home-assistant_v2.*
 lib
 deps
 tts
