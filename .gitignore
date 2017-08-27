@@ -1,9 +1,9 @@
 *.db
 home-assistant.log
 home-assistant.*
-home-assistant_v2.*
+home-assistant_v2.db
 lib
 deps
-tts
+ttss
 secrets.yaml
 known_devices.yaml
