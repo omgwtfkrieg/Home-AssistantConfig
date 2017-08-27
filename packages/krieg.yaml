@@ -1,6 +1,0 @@
-sensor:
-  platform: template
-  sensors:
-    krieg:
-      value_template: "{% if is_state('device_tracker.androida4453a4be3c18539', 'home') %}on{% else %}WTF{% endif %}"
-      friendly_name: "Krieg"
